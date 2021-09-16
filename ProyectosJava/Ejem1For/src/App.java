@@ -5,7 +5,7 @@ public class App {
     {
        int Num1=1;
        int Num2=2;
-       int Ite=10;
+       int Iter=10;
        int Suma=0;
        int Cont=0;
 
