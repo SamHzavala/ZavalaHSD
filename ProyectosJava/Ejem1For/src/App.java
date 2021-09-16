@@ -1,4 +1,4 @@
-import javax.print.Doc;
+
 
 public class App {
     public static void main(String[] args) throws Exception 
@@ -21,7 +21,7 @@ public class App {
         Num2=Suma;
 
         Cont++;
-       }while(Cont<Ite);
+       }while(Cont<Iter);
     
 
 
