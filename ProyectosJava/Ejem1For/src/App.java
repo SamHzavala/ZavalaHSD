@@ -5,12 +5,12 @@ public class App {
        int Num2=2;
        int Ite=10;
        int Suma=0;
-       int i=0;
+       int Cont=0;
 
        System.out.println(Num1);
        System.out.println(Num2);
 
-       while(i<Ite)
+       while(Cont<Ite)
        {
         Suma=Num1+Num2;
         System.out.println(Suma);
@@ -18,7 +18,7 @@ public class App {
         Num1=Num2;
         Num2=Suma;
 
-        i++;
+        Cont++;
        }
     
 
