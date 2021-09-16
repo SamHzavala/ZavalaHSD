@@ -1,3 +1,5 @@
+import javax.print.Doc;
+
 public class App {
     public static void main(String[] args) throws Exception 
     {
@@ -10,7 +12,7 @@ public class App {
        System.out.println(Num1);
        System.out.println(Num2);
 
-       while(Cont<Ite)
+       do
        {
         Suma=Num1+Num2;
         System.out.println(Suma);
@@ -19,7 +21,7 @@ public class App {
         Num2=Suma;
 
         Cont++;
-       }
+       }while(Cont<Ite);
     
 
 
