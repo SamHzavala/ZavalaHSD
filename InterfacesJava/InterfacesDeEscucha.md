@@ -6,7 +6,7 @@ o la presion de una tecla, y luego respone en consecuencia.
 Un detector de eventos debe estar conectado a un objeto de
 eventos debe estar conectado a un objeto de evento que defina el evento.  
 
-## COMO FUNCIONAN LOS OYENTES DE EVENTOS ##  
+## **COMO FUNCIONAN LOS OYENTES DE EVENTOS** ##  
 
 Cada interfaz de escucha de eventos incluye al menos un metodo utilizado
 por la fuente de eventos equivalente.  
@@ -38,7 +38,7 @@ el evento de mouse particular para el que esta diseñado. En su clase ***MouseLi
 se registra para **escuchar** cualquiera de estos eventos para estar
 informado cuando ocurren.  
   
-## TIPOS DE OYENTES DE EVENTOS ##  
+## **TIPOS DE OYENTES DE EVENTOS** ##  
   
 Los oyentes de eventos estan representados por diferentes interfaces,
 cada una de las cuales esta diseñada para procesar un evento equivalente.  
