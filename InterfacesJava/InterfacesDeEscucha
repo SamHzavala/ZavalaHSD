@@ -1,4 +1,4 @@
-#  **INTERFACES DE ESCUCHA** #
+#  ***INTERFACES DE ESCUCHA*** #
 
 Un detector de eventos de Java esta diseñado para procesar algun
 tipo de evento: "Escucha" un evento, como el clic del mouse de un usuario
