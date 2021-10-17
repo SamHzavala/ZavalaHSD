@@ -67,7 +67,9 @@ otra serie de interfaces genericas. Estas subinterfaces aportan distintas funcio
   >Ejemplo de las bondades de los **streams** donde, a partir de una lista de personas (donde cada una de ellas tiene un nombre), obtenemos una lista con todos los nombres.  
 
 ```List people = new ArrayList();```  
-```List names = people.stream().map(Person::getName).collect(Collectors.toList());```
+```List names = people.stream().map(Person::getName).collect(Collectors.toList());```  
+
+# **JAVA COLLECTION FRAMERORK** #
   
 
 
