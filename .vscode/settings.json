@@ -1,5 +1,6 @@
 {
     "java.project.sourcePaths": [
-        "ProyectosJava/Ejem1For/src"
+        "ProyectosJava/Ejem1For/src",
+        "ProyectosJava/Quiz2/EjercicioDeQuiz/src"
     ]
 }
