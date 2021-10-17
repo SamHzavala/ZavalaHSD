@@ -51,8 +51,11 @@ otra serie de interfaces genericas. Estas subinterfaces aportan distintas funcio
   - **LinkedList**: Esta implementacion permite que mejore el rendimiento en ciertas ocasiones. Esta implementacion se basa en una lista doblemente enlazada de los 
   elementos, teniendo cada uno de los elementos un puntero al anterios y al siguiente elemento.  
 
-- **MAP**
-  La interfaz **MAP**
+- **MAP**  
+  La interfaz **MAP** asocia claves a valores. Esta interfaz no puede contener claves duplicadas y; cada una de dichas clave, solo puede tener asociado un valor como 
+  maximo.Dentro de la interfaz **MAP** existen varios tipos de implementaciones realizadas dentro de la plataforma Java.  
+
+  -***HashMap***: 
   
 
 
