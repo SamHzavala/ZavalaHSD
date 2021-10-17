@@ -49,7 +49,10 @@ otra serie de interfaces genericas. Estas subinterfaces aportan distintas funcio
   - **ArrayList**: Esta es la implementacion tipica.Se basa en un ***array*** redimensionable que aumenta su tamaño segun crece la coleccion de elementos. Es la 
   que mejor rendimiento tiene sobre la mayoria de situaciones.  
   - **LinkedList**: Esta implementacion permite que mejore el rendimiento en ciertas ocasiones. Esta implementacion se basa en una lista doblemente enlazada de los 
-  elementos, teniendo cada uno de los elementos un puntero al anterios y al siguiente elemento.
+  elementos, teniendo cada uno de los elementos un puntero al anterios y al siguiente elemento.  
+
+- **MAP** 
+  
 
 
 
