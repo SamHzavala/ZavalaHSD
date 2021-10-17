@@ -9,7 +9,7 @@ otra serie de interfaces genericas. Estas subinterfaces aportan distintas funcio
    
 ## **TIPOS DE COLECCIONES** ##
 
-- **SET**
+- **SET**  
   La interfaz **SET** define una coleccion que no puede contener elementos duplicados. Esta interfaz contiene, unicamente, los metodos
   heredador de ***COLLECTION*** añadiendo la restriccion de que los elementos duplicados estan prohibidos. Para comprobar si los elementos 
   son elementos duplicados o no lo son, es necesario que dichos elementos tengas implementada, de forma correcta, los metodos ***Equals y HashCode***.
