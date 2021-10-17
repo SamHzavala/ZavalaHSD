@@ -51,7 +51,8 @@ otra serie de interfaces genericas. Estas subinterfaces aportan distintas funcio
   - **LinkedList**: Esta implementacion permite que mejore el rendimiento en ciertas ocasiones. Esta implementacion se basa en una lista doblemente enlazada de los 
   elementos, teniendo cada uno de los elementos un puntero al anterios y al siguiente elemento.  
 
-- **MAP** 
+- **MAP**
+  La interfaz **MAP**
   
 
 
