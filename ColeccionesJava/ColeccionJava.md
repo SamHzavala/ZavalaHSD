@@ -55,7 +55,19 @@ otra serie de interfaces genericas. Estas subinterfaces aportan distintas funcio
   La interfaz **MAP** asocia claves a valores. Esta interfaz no puede contener claves duplicadas y; cada una de dichas clave, solo puede tener asociado un valor como 
   maximo.Dentro de la interfaz **MAP** existen varios tipos de implementaciones realizadas dentro de la plataforma Java.  
 
-  -***HashMap***: 
+  - ***HashMap***: Esta implementacion almacena las claves en una tabla ***hash***. Es la implementacion con mejor rendimiento de todas pero no garantiza ningun orden 
+  a la hora de realizar iteracion. Proporciona tiempos constantes en las opeaciones basicas siempre y cuando la funcion ***hash*** disperse de forma correcta los elementos 
+  dentro de la tabla ***hash***  
+  - ***LinkedHashMap***: Esta implementacion almacena las claves en funcion del orden de insercion. Es simplemente, un poco mas costosa que **HashMap**.  
+  
+- **STREAM API**  
+  Gracias a la llegada de Java 8, las colecciones han aumentado su funcionalidad con la llegada de los **streams**. Los **streams** permiten realizar operaciones funcionales 
+  sobre los elementos de las colecciones.  
+
+  >Ejemplo de las bondades de los **streams** donde, a partir de una lista de personas (donde cada una de ellas tiene un nombre), obtenemos una lista con todos los nombres.  
+
+```List people = new ArrayList();```  
+```List names = people.stream().map(Person::getName).collect(Collectors.toList());```
   
 
 
