@@ -69,7 +69,32 @@ otra serie de interfaces genericas. Estas subinterfaces aportan distintas funcio
 ```List people = new ArrayList();```  
 ```List names = people.stream().map(Person::getName).collect(Collectors.toList());```  
 
-# **JAVA COLLECTION FRAMERORK** #
+# **JAVA COLLECTION FRAMEWORK** #  
+
+Una coleccion es como un contenedor que combina multiples articulor en una unidad. Por ejemplo: ***una lata de chocolate, lista, etc..***. Casi todos los lenguajes de programacion 
+usan colecciones, y cuando llega Java, tambien viene con una pequeña clase de coleccion; **Vector, Apilar, Tabla, Formacion**. Java 1.2 proporciona **Collection Framework**. Es 
+una arquitectura que representa y manipula colecciones en Java de forma estandar. El Java Collections FrameWork contiene las siguientes partes:  
+
+- **INTERFAZ**: La interfaz de Java Collections Framework proporciona tipos de datos abstractos que representan colecciones ```java.util.Collection```. Es la interfaz raiz de 
+Framework Framework. Esta en la parte superior de la jerarquia del marco de colecciones. contiene algunos metodos importantes como ```size(), iterator(), add(), remove(), clear()```.
+Cada clase de coleccion debe implementarse. Algunas otras interfaces importantes son ```java.util.List```, ```java.util.Set```, ```java.util.Queue``` con ```java.util.Map```. 
+Map es la unica interfaz que no hereda de la interfaz Collection, pero es parte del marco de Collection. Todas las interfaces del marco de recopilacion existen en ```java.util``` en la 
+bolsa.  
+- **CLASE DE IMPLEMENTACION**: Las colecciones en java proporcionan clases principales de implementacion para colecciones. Podemos usarlos para crear diferentes tipos de colecciones 
+en programas java. Algunas clases importantes de recoleccion son ```ArrayList, LinkedList, HasMap, TreeMap, HashSet, TreeSet```. Estas clases resuelven la mayoria de nuestras 
+necesidades de programacion, pero si necesitamos algunas clases de colecion especiales, podemos extenderlas para crear nuestras clases de colecciones personalizadas. A Java 1.5 se le 
+ocurrio la idea de permitir modificar una coleccion mientras se iteraba, algunas de ellas son clases de coleccion seguras para subprocesos ```CopyOnWriteArrayList```, 
+```ConcurrentHashMap, CopyOnWriteArraySet```. Estas clases se encuentran en el paquete ```java.util.concurrent```. Todas las clases de coleccion existen en ```Java.util``` con 
+```java.util.concurrent``` paquete.  
+- **ALGORITMO**: los algoritmos son metodos utiles que proporcionan algunas funciones de uso comun, como **buscar, ordenar y barajar**.  
+
+El siguiente diagrama de clase muestra la jerarquia del marco de colecciones. Por simplicidad, solo se incluye interfaces y clases de uso comun.  
+
+![JavaCollection](Colecciones.jpg)  
+
+## **VENTAJAS DE JAVA COLLECTIONS FRAMEWORK** ##
+
+
   
 
 
