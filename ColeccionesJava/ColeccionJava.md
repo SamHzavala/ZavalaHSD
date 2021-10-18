@@ -92,7 +92,13 @@ El siguiente diagrama de clase muestra la jerarquia del marco de colecciones. Po
 
 ![JavaCollectionFramework](Colecciones.jpg)  
 
-## **VENTAJAS DE JAVA COLLECTIONS FRAMEWORK** ##
+## **VENTAJAS DE JAVA COLLECTIONS FRAMEWORK** ##  
+
+- ***Reduce el esfuerzo de desarrollo***: Contiene casi todos los tipos comunes de colecciones y metodos utiles para iterar y manipular datos. Por lo tanto, podemos centarnos mas en la 
+logica empresarial en lugar de diseñar nuesta API de recopilacion.  
+- ***Mejora de calidad***: Usar clases de coleccion centar bien probadas puede mejorar la calidad del programa, en lugar de utiliar cualquier estructura de datos desarrollada por la familia.  
+- ***Reusabilidad e interoperabilidad***  
+- ***Reducir la carga de trabajo***: Si usamos la clase API de la coleccion principal, aprenda cualquier nueva API.
 
 
   
