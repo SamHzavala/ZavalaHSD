@@ -90,7 +90,7 @@ ocurrio la idea de permitir modificar una coleccion mientras se iteraba, algunas
 
 El siguiente diagrama de clase muestra la jerarquia del marco de colecciones. Por simplicidad, solo se incluye interfaces y clases de uso comun.  
 
-![JavaCollection](Colecciones.jpg)  
+![JavaCollectionFramework](Colecciones.jpg)  
 
 ## **VENTAJAS DE JAVA COLLECTIONS FRAMEWORK** ##
 
